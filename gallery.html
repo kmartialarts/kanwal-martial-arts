@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Gallery | Kanwal Martial Arts Academy Islamabad</title>
+  <meta name="description" content="Gallery of training sessions, events and achievements from Kanwal Martial Arts Academy, Islamabad.">
+  <meta name="keywords" content="martial arts gallery, kanwal martial arts photos, training gallery islamabad, martial arts events photos">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kanwalmartialarts.com/gallery">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kanwalmartialarts.com/gallery">
+  <meta property="og:title" content="Gallery | Kanwal Martial Arts Academy Islamabad">
+  <meta property="og:description" content="Gallery of training sessions, events and achievements from Kanwal Martial Arts Academy.">
+  <meta property="og:image" content="https://kanwalmartialarts.com/assets/images/og-gallery.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Gallery",
+    "url": "https://kanwalmartialarts.com/gallery",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://kanwalmartialarts.com/"},
+        {"@type":"ListItem","position":2,"name":"Gallery","item":"https://kanwalmartialarts.com/gallery"}
+      ]
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .gallery-grid-3x4 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .gallery-grid-3x4 .gallery-item {
+      aspect-ratio: 4/3;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+    }
+    .gallery-grid-3x4 .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .gallery-grid-3x4 .gallery-item:hover img { transform: scale(1.06); }
+    .gallery-grid-3x4 .gallery-item:hover .gallery-overlay { opacity: 1; }
+    .gallery-grid-3x4 .gallery-item:hover .gallery-zoom { opacity: 1; }
+    @media (max-width: 768px) { .gallery-grid-3x4 { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 480px) { .gallery-grid-3x4 { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+<div id="preloader" role="status" aria-label="Loading">
+  <div class="preloader-inner">
+    <div class="preloader-logo">KANWAL <span>MARTIAL ARTS</span></div>
+    <div class="preloader-bar"><div class="preloader-bar-inner"></div></div>
+  </div>
+</div>
+
+<div id="header-placeholder"></div>
+
+<main id="main-content">
+
+  <!-- Inner Hero -->
+  <section class="inner-hero" aria-label="Gallery Header">
+    <div class="container">
+      <div class="inner-hero-content">
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="active" aria-current="page">Gallery</li>
+          </ol>
+        </nav>
+        <h1>Moments From <span>Our Academy</span></h1>
+        <p>Training sessions, events and highlights captured from Kanwal Martial Arts Academy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section-pad bg-white" aria-labelledby="gallery-heading">
+    <div class="container">
+      <div class="text-center mb-4" data-aos="fade-up">
+        <span class="section-label">Gallery</span>
+        <h2 class="section-title" id="gallery-heading">Training <span>Moments</span></h2>
+        <p class="section-desc">A collection of photos from recent classes, competitions and community events.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filters" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All Photos</button>
+        <button class="filter-btn" data-filter="training">Training</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="competition">Competition</button>
+      </div>
+
+      <!-- 3 x 4 Grid -->
+      <div class="gallery-grid-3x4 mt-4" id="gallery-grid" data-aos="fade-up">
+
+        <!-- Row 1 -->
+        <div class="gallery-item" data-category="training">
+          <img src="assets/images/Picture 1.jpg" alt="Karate training session" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Karate Training</h4><span>Training Session</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-category="training">
+          <img src="assets/images/Picture 2.jpg" alt="Students in practice" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Morning Practice</h4><span>Training Session</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-category="competition">
+          <img src="assets/images/Picture 3.jpg" alt="Competition match" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Championship Match</h4><span>Competition</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="gallery-item" data-category="events">
+          <img src="assets/images/Picture 4.jpg" alt="Academy event" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Annual Event</h4><span>Academy Event</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-category="training">
+          <img src="assets/images/Picture 5.jpg" alt="Fitness conditioning" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Fitness Conditioning</h4><span>Training Session</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-category="competition">
+          <img src="assets/images/Picture 6.jpg" alt="Award ceremony" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Award Ceremony</h4><span>Competition</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="gallery-item" data-category="training">
+          <img src="assets/images/Picture 7.jpg" alt="Youth training" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Youth Development</h4><span>Training Session</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-category="events">
+          <img src="assets/images/Picture 8.jpg" alt="Group photo" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Team Photo</h4><span>Academy Event</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-category="training">
+          <img src="assets/images/Picture 9.jpg" alt="Self defense class" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Self Defense Class</h4><span>Training Session</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="gallery-item" data-category="events">
+          <img src="assets/images/Picture 10.jpg" alt="Stamina training" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Stamina Training</h4><span>Training Session</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-category="competition">
+          <img src="assets/images/Picture 11.jpg" alt="Belt ceremony" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Belt Ceremony</h4><span>Competition</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-category="training">
+          <img src="assets/images/Picture 12.jpg" alt="Kung Fu practice" loading="lazy">
+          <div class="gallery-overlay"><div class="gallery-overlay-content"><h4>Kung Fu Practice</h4><span>Training Session</span></div></div>
+          <div class="gallery-zoom"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+      </div><!-- /gallery-grid-3x4 -->
+
+      <div style="text-align:center;margin-top:40px;" data-aos="fade-up">
+        <a href="contact.html" class="btn-primary">
+          <i class="fas fa-camera"></i> Request Photos
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">
+    <i class="fas fa-times"></i>
+  </button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="">
+</div>
+
+<div id="footer-placeholder"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  /* Lightbox */
+  var lightbox = document.getElementById('lightbox');
+  var lbImg    = document.getElementById('lightbox-img');
+  var lbClose  = document.getElementById('lightbox-close');
+
+  document.querySelectorAll('.gallery-grid-3x4 .gallery-item').forEach(function (item) {
+    item.addEventListener('click', function () {
+      var img = item.querySelector('img');
+      lbImg.src = img.src;
+      lbImg.alt = img.alt;
+      lightbox.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+    lbImg.src = '';
+  }
+  lbClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) { if (e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeLightbox(); });
+
+  /* Filter Buttons */
+  var filterBtns = document.querySelectorAll('.filter-btn');
+  var allItems   = document.querySelectorAll('.gallery-grid-3x4 .gallery-item');
+
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      filterBtns.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filter = btn.getAttribute('data-filter');
+      allItems.forEach(function (item) {
+        item.style.display = (filter === 'all' || item.getAttribute('data-category') === filter) ? 'block' : 'none';
+      });
+    });
+  });
+
+});
+</script>
+</body>
+</html>

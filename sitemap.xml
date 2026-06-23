@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://kanwalmartialarts.com/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://kanwalmartialarts.com/assets/images/og-home.jpg</image:loc>
+      <image:title>Kanwal Martial Arts Academy Islamabad — Hero Image</image:title>
+      <image:caption>Professional martial arts training at Pakistan Sports Complex Islamabad</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ABOUT US -->
+  <url>
+    <loc>https://kanwalmartialarts.com/about-us</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://kanwalmartialarts.com/assets/images/og-about.jpg</image:loc>
+      <image:title>About Kanwal Martial Arts Academy Islamabad</image:title>
+    </image:image>
+  </url>
+
+  <!-- TRAINER -->
+  <url>
+    <loc>https://kanwalmartialarts.com/trainer</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://kanwalmartialarts.com/assets/images/og-trainer.jpg</image:loc>
+      <image:title>Miss Sualeha Kanwal — Pakistan's Pioneer Female Martial Arts Coach</image:title>
+    </image:image>
+  </url>
+
+  <!-- PROGRAMS -->
+  <url>
+    <loc>https://kanwalmartialarts.com/programs</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://kanwalmartialarts.com/assets/images/og-programs.jpg</image:loc>
+      <image:title>Martial Arts Programs — Karate, Kung Fu, Self Defense Islamabad</image:title>
+    </image:image>
+  </url>
+
+  <!-- GALLERY -->
+  <url>
+    <loc>https://kanwalmartialarts.com/gallery</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kanwalmartialarts.com/assets/images/gallery-1.jpg</image:loc>
+      <image:title>Karate Training Gallery — Kanwal Martial Arts Academy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://kanwalmartialarts.com/assets/images/gallery-2.jpg</image:loc>
+      <image:title>Self Defense Class Gallery — Kanwal Martial Arts Academy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://kanwalmartialarts.com/assets/images/gallery-3.jpg</image:loc>
+      <image:title>Summer Camp Gallery — Kanwal Martial Arts Academy</image:title>
+    </image:image>
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>https://kanwalmartialarts.com/contact</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- REGISTER -->
+  <url>
+    <loc>https://kanwalmartialarts.com/register</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

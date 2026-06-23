@@ -1,0 +1,53 @@
+# ============================================================
+# KANWAL MARTIAL ARTS ACADEMY — robots.txt
+# ============================================================
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (none currently, but future-proof)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /assets/fonts/
+
+# Allow CSS and JS for rendering
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Crawl delay for aggressive bots
+Crawl-delay: 5
+
+# Sitemap location
+Sitemap: https://kanwalmartialarts.com/sitemap.xml
+
+# ============================================================
+# SPECIFIC BOT RULES
+# ============================================================
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 3
+
+# Block known bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
